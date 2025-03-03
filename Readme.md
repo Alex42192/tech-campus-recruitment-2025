@@ -30,27 +30,7 @@ Write a script that takes a specific date as an argument (in the format `YYYY-MM
 - The solution must handle a file size of around **1 TB**.
 - Logs are nearly evenly distributed across days.  
 - Efficiency in time and resource utilization is critical.  
-
----
-
-## Expectations  
-
-1. **Input:** A date (`YYYY-MM-DD`) passed as a command-line argument.  
-2. **Output:** All log entries for the specified date, saved to a file named `output/output_YYYY-MM-DD.txt`.  
-3. **Performance:** The solution should optimize for speed and memory usage.  
-
----
-
-## Evaluation Criteria  
-
-- **Total Running Time:** Time taken to return the result for the first query.  
-- **Code Quality:** Readability, modularity, and proper error handling.  
-
----
-
-## Example Usage  
-
-**Python**  
+ 
 
 ```bash
 python extract_logs.py 2024-12-01
